@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+	font-family: "Roboto", sans-serif; font-size: 16px; color: #666666; margin:0; font-weight: 500
+	
+}
+.text-do{
+	color: darkred
+		
+}
+.box{
+	width: 100%; min-height: 300px; border: 2px solid red
+		
+}
+header{
+	width: 100%; height: 60px; background-color: #B4B4B4; border-bottom: 1px solid darkred
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul{
+	margin: 0; padding-top: 0 ; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: #4f4f4f; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:red;
+      text-decoration: none; }
+#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#FC0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #4DC7A0; }
+main{
+	width: 100%; min-height: 500px
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	padding: 13px; display: block; text-decoration: none; color: #666666; text-transform: capitalize
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+.text-center{
+	text-align: center
+}
+.sp{
+    font-size: 20px; font-weight: bold; color: #091F90
+}
+.text-den{
+	color: #232323
+}
+footer{
+	width: 100%; min-height: 300px; background-color: #BCBCBC
+}
+footer a{
+	color: #161616
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	width:100%; background-color: #2D95C4; min-height: 300px; text-align: center
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block; padding: 10px; text-decoration: none
+}
+footer ul li a:hover{
+	color: white
+}
